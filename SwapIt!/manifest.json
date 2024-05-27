@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Sebify",
+  "version": "2.0",
+  "description": "Replaces all images on web pages with an image of the cutest italian.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["images/rep.png"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

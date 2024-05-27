@@ -1,0 +1,11 @@
+/* Ensure that the replacement image persists on hover and as background images */
+img, object, embed, iframe {
+  background-image: url("images/rep.png") !important;
+  background-size: cover !important;
+}
+
+/* Ensure background images are replaced only if they exist */
+*[style*="background-image"] {
+  background-image: url("images/rep.png") !important;
+  background-size: cover !important;
+}
