@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Sebify",
+  "name": "SwapIt",
   "version": "2.0",
-  "description": "Replaces all images on web pages with an image of the cutest italian.",
+  "description": "Replaces all images on web pages with any image you want",
   "permissions": [
     "activeTab"
   ],
